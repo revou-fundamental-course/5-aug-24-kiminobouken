@@ -1,5 +1,10 @@
 /* in i css */ 
 
+h1{
+    text-align: center
+
+
+}
 .arcticle-main{
 
 }
@@ -7,8 +12,9 @@
 
 
 
-.form{
-
+form{
+    padding: ;12px
+    background-color: #5591ee;
 }
 
 
