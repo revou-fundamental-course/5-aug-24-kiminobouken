@@ -9,9 +9,10 @@
 
 </head>
 
-<body>
+<body style= "body">
     <header>
         <h1 style="h1">KALKULATOR BMI</h1>
+        <p>Selamat datang di Kalkulator BMI! Alat ini akan membantu Anda mengetahui Indeks Massa Tubuh (BMI) Anda dengan mudah dan cepat. BMI adalah ukuran yang digunakan untuk menilai apakah berat badan Anda sehat sesuai dengan tinggi badan Anda. Mari kita mulai dengan memasukkan data Anda!</p>
     </header>
 
 
@@ -31,30 +32,35 @@
 
 
 
-    <form style="form">
+    <form style= "form">
+            <!-- jenis kelamin-->
         <div>
+            <h3>jenis kelamin</h3>
             <input type="radio" id="laki_laki" name="jenis_kelamin" value="laki-laki" required>
             <label for="laki_laki">Laki-laki</label><br>
             <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan" required>
             <label for="perempuan">Perempuan</label><br><br>
-    
+        </div>
+
+        <div>
             <!-- Berat Badan -->
             <h3>Berat Badan (kg):</h3>
             <input type="text" id="berat" name="berat" required><br><br>
-    
+        </div>
+        <div>
             <!-- Usia -->
             <h3>Usia (tahun):</h3>
             <input type="text" id="usia" name="usia" required><br><br>
-    
+        </div>
             <!-- Tinggi Badan -->
             <h3>Tinggi Badan (cm):</h3>
             <input type="text" id="tinggi" name="tinggi" required><br><br>
-    
+        <div>
             <!-- Tombol Hitung BMI -->
             <button type="button" onclick="hitungbmi">Hitung BMI</button>
             <button type="button" onclick="reset">reset</button>
 
-
+        </div>
 
 
 
@@ -80,18 +86,32 @@
     </form>
 
     <article class="arcticle-after-form">
-        <header>
+        <main>
+            <header>
             <h2>form information</h2>
+            </header>
+               
+        
 
-        </header>
+        <p>Berikut adalah beberapa keunggulan fitur Kalkulator BMI:
 
-        <p></p>
-
+            1. **Penggunaan Mudah dan Cepat:** Hanya dengan memasukkan tinggi dan berat badan, Anda bisa mendapatkan hasil BMI dalam hitungan detik.
+            
+            2. **Akurasi Tinggi:** Kalkulator ini menggunakan formula standar yang diakui secara internasional untuk menghitung BMI Anda.
+            
+            3. **Interpretasi Hasil yang Jelas:** Setelah menghitung BMI, Anda akan mendapatkan penjelasan yang jelas mengenai kategori berat badan Anda, seperti berat badan kurang, normal, atau berlebih.
+            
+            4. **Panduan Kesehatan:** Selain hasil BMI, kalkulator ini juga memberikan saran umum tentang langkah-langkah yang bisa Anda ambil berdasarkan hasil BMI Anda.
+            
+            5. **Tersedia di Berbagai Perangkat:** Kalkulator ini dapat diakses dengan mudah melalui perangkat apa pun, baik itu smartphone, tablet, maupun komputer.
+            
+            6. **Privasi Terjaga:** Data yang Anda masukkan hanya digunakan untuk keperluan perhitungan BMI dan tidak akan disimpan atau dibagikan.</p>
+        </main>   
     </article>
 
     <aside>
         <section>
-            <p>persona</p>
+            <p></p>
 
 
 
@@ -133,6 +153,8 @@
 
 
 <footer></footer>
-<script></script>
+<script src="scripts.js"></script>
+
 </body>
+
 </html>

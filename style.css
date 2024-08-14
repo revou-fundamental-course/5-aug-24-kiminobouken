@@ -1,4 +1,9 @@
-/* in i css */ 
+/* ini  css */ 
+
+body{
+    background-color: rgba(28, 34, 197, 0.403);
+}
+
 
 h1{
     text-align: center
@@ -15,9 +20,14 @@ h1{
 form{
     padding: ;12px
     background-color: #5591ee;
+    border
 }
 
 
-main{
+.main{
+    display: flex;
+}
+
+.arcticle-after-form{
     display: flex;
 }
